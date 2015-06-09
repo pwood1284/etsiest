@@ -1,0 +1,138 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+
+body {
+  font-family: Arial,sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  margin: 0;
+
+  padding: 10px;
+  font-family: 'Indie Flower';
+  float: left;
+}
+
+
+nav {
+  float: right;
+  margin: 10px;
+}
+
+header {
+  background: #FFFFFF;
+  padding-left: 60px;
+
+  border-bottom: 1px solid #a4b296;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FF7F50
+}
+footer {
+  background:  #FAF7F5;
+  border-top: 1px sold #a4b296;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+.main {
+  min-height: calc(120vh - 128px);
+  background:  #FAF7F5;
+}
+li {
+  padding-top: 10px;
+
+}
+ul {
+  list-style: none;
+  float: left;
+  background: #FFFFFF;
+  padding: 20px;
+  padding-right: 90px;
+  padding-top: 5px;
+  margin-top: 10px;
+  border: 1px solid #a4b296;
+}
+form {
+  padding-top: 16px;
+  width:400px;
+  margin:0px auto;
+  margin-left:50px;
+  margin-right:0px;
+  float: left;
+}
+.search {
+  padding:8px 15px;
+  background:#FAF7F5;
+  border: 1px solid #a4b296;
+  float: left;
+  border-radius:3px;
+  width:190px;
+  height:11px;
+  font-size: 75%;
+}
+.button {
+  position:relative;
+  padding:6px 15px;
+  left:-8px;
+  border:2px solid #4DA6A6;
+  background-color:#4DA6A6;
+  color:#fafafa;
+  float: left;
+  border-top-right-radius:3px;
+  border-bottom-right-radius:3px;
+}
+.button:hover  {
+  background-color:#fafafa;
+  color:#207cca;
+}
+.sidebar {
+  width: 400px;
+  padding-left: 0px;
+}
+.products {
+  float: right;
+  width: calc(100% - 350px);
+}
+.product {
+  display: inline-block;
+  margin: 5px;
+  background: #eee;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.details .name {
+  float: left;
+  color: #a4b296;
+}
+.details .price {
+  float: right;
+}
+
+.details .price:before {
+  content: "$";
+  opacity: .3;
+}
+
+.allcategories {
+  margin-left:0;
+  font-weight: bold;
+}
+
+.category {
+  margin-left: 10px;
+  color: #4DA6A6;
+}
+.categorylist {
+  float: left;
+}
+.title {
+color: #000000;
+}
+.result { padding-top: 30px;
+padding-bottom: 0px;
+font-weight: bold;
+width:200px; }
